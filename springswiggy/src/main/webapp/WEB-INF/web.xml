@@ -1,0 +1,13 @@
+<web-app>
+	<servlet>
+		<servlet-name>maven</servlet-name>
+		<servet-class>org.springframework.web.servlet.DispatcherServlet</servet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>maven</servlet-name>
+		<url-pattern></url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>registerUser</welcome-file>
+	</welcome-file-list>
+</web-app>
